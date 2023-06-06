@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8498650272478440600
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_Name
+      value: coinBronzePopped
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.079258
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8864088
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5800000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+--- !u!1 &8498650272478472760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: fc7e92897a0db1949960c204ceb311cc, type: 3}
+  m_PrefabInstance: {fileID: 8498650272478440600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &-8648702384832119819
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8498650272478472760}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &5685228213290903197
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8498650272478472760}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.18}
+  serializedVersion: 2
+  m_Radius: 0.18
+--- !u!114 &-2342990108796469946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8498650272478472760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 353a87412a8e54f4f8c89aaf116c3f04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinValue: 1
